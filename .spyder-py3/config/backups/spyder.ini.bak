@@ -23,6 +23,8 @@ show_dpi_message = True
 version = 71.0.0
 previous_crash = 
 window/statusbar = False
+interface_language = en
+custom_cursor_blinking = 1060
 
 [toolbar]
 enable = True
@@ -36,6 +38,7 @@ cpu_usage/enable = False
 cpu_usage/timeout = 2000
 clock/enable = False
 clock/timeout = 1000
+enable = True
 
 [internal_console]
 max_line_count = 300
@@ -101,6 +104,8 @@ pdb_use_exclamation_mark = True
 pdb_stop_first_line = True
 show_first_time = False
 undocked_on_window_close = False
+startup/pdb_run_lines = 
+enable = True
 
 [variable_explorer]
 check_all = False
@@ -116,6 +121,7 @@ minmax = False
 show_callable_attributes = True
 show_special_attributes = False
 undocked_on_window_close = False
+enable = True
 
 [plots]
 mute_inline_plotting = True
@@ -123,6 +129,7 @@ show_plot_outline = False
 auto_fit_plotting = True
 save_dir = C:\Users\BEU
 undocked_on_window_close = False
+enable = True
 
 [editor]
 printer_header/font/family = ['Sans Serif', 'DejaVu Sans', 'Bitstream Vera Sans', 'Bitstream Charter', 'Lucida Grande', 'MS Shell Dlg 2', 'Calibri', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', 'Times', 'sans-serif']
@@ -181,6 +188,7 @@ docstring_type = Numpydoc
 strip_trailing_spaces_on_modify = False
 undocked_on_window_close = False
 windows_layout_settings = []
+enable = True
 
 [historylog]
 enable = True
@@ -232,6 +240,7 @@ show_hidden = True
 size_column = False
 type_column = False
 undocked_on_window_close = False
+enable = True
 
 [explorer]
 enable = True
@@ -284,6 +293,7 @@ enable = True
 max_entries = 30
 project_dir = None
 undocked_on_window_close = False
+save_before = True
 
 [workingdir]
 working_dir_adjusttocontents = False
@@ -294,7 +304,7 @@ console/use_fixed_directory = False
 startup/use_project_or_home_directory = True
 startup/use_fixed_directory = False
 init_workdir = None
-history = ['C:\\Users\\BEU', 'C:\\Users\\BEU\\Documents\\Blockchain A-Z\\Module 1 - Create a Blockchain', 'C:\\Users\\BEU\\Documents', 'C:\\Users\\BEU\\Documents\\Blockchain A-Z', 'C:\\Users\\BEU\\.spyder-py3']
+history = ['C:\\Users\\BEU\\Documents\\Blockchain A-Z\\Module 1 - Create a Blockchain', 'C:\\Users\\BEU\\Documents\\Blockchain A-Z', 'C:\\Users\\BEU\\Documents', 'C:\\Users\\BEU', 'C:\\Users\\BEU\\.spyder-py3']
 workdir = None
 
 [tours]
@@ -851,6 +861,7 @@ vibrant-ink/comment = ('#8146a2', False, False)
 vibrant-ink/string = ('#477488', False, False)
 vibrant-ink/number = ('#477488', False, False)
 vibrant-ink/instance = ('#357a8f', False, False)
+custom_names = []
 
 [run]
 history = 20
@@ -865,4 +876,6 @@ default/wdir/use_cwd_directory = False
 default/wdir/use_fixed_directory = False
 open_on_firstrun = False
 open_at_least_once = False
+enable = True
+default/interpreter/dedicated = False
 
